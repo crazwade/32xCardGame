@@ -1,0 +1,158 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+html #app, body #app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EFCACA;
+}
+
+html #app #title, body #app #title {
+  width: 600px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e0bf64;
+}
+
+html #app #title h1, body #app #title h1 {
+  font-size: 40px;
+}
+
+html #app #main, body #app #main {
+  margin-top: 20px;
+  width: 800px;
+  height: 480px;
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+html #app #main .card, body #app #main .card {
+  width: 100px;
+  height: 120px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #9bcce9;
+  position: relative;
+}
+
+html #app #main .card .question, body #app #main .card .question {
+  font-size: 60px;
+  position: absolute;
+  left: 35px;
+  top: 25px;
+  color: red;
+}
+
+html #app #main .card .show, body #app #main .card .show {
+  height: 100%;
+  width: 100%;
+}
+
+html #app #main .card .show .head, body #app #main .card .show .head {
+  width: 30px;
+  height: 25%;
+  font-size: 18pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+html #app #main .card .show .number, body #app #main .card .show .number {
+  width: 100%;
+  height: 50%;
+  font-size: 50pt;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html #app #main .card .show .foot, body #app #main .card .show .foot {
+  width: 100%;
+  height: 25%;
+  font-size: 18pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+html #app #footer, body #app #footer {
+  width: 600px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html #app #footer button, body #app #footer button {
+  width: 120px;
+  height: 50px;
+  border: none;
+  list-style: none;
+  border-radius: 15px;
+  background-color: #666060;
+  color: white;
+  font-size: 24px;
+}
+
+html #app #footer button:hover, body #app #footer button:hover {
+  background-color: #444343;
+}

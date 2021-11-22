@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <div id="title">
+      <h1>神經衰弱 : 總共翻 0 次</h1>
+    </div>
+    <div id="main">
+      <div id="card1" class="card" onClick="getthis(this.id,answer)">
+        <div class="question">?</div>
+      </div>
+      <div id="card2" class="card" onClick="getthis(this.id,answer)">
+        <div class="show">
+          <div class="head bi bi-xbox"></div>
+          <div class="number">1</div>
+          <div class="foot bi bi-xbox"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <button onclick="reset()">Again</button>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="js/class.js"></script>
+</html>

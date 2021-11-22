@@ -1,0 +1,85 @@
+html, body 
+  width: 100%
+  height: 100%
+  list-style: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  #app
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFCACA;
+    #title
+      width: 600px
+      height: 100px
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: #e0bf64;
+      h1
+        font-size: 40px
+    #main
+      margin-top: 20px
+      width: 800px;
+      height: 480px;
+      background-color: orange;
+      display: flex;
+      flex-wrap: wrap;
+      .card
+        width: 100px;
+        height: 120px;
+        box-sizing: border-box;
+        background-color: #9bcce9;
+        position: relative;
+        .question
+          font-size: 60px;
+          position: absolute;
+          left: 35px;
+          top: 25px;
+          color: red;
+        .show
+          height: 100%;
+          width: 100%;
+          .head
+            width: 30px;
+            height: 25%;
+            font-size: 18pt;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+          .number
+            width: 100%
+            height: 50%;
+            font-size: 50pt;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          .foot
+            width: 100%;
+            height: 25%;
+            font-size: 18pt;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+    #footer
+      width: 600px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      button
+        width: 120px;
+        height: 50px;
+        border: none;
+        list-style: none;
+        border-radius: 15px;
+        background-color: #666060;
+        color: white;
+        font-size: 24px;
+      button:hover
+        background-color: #444343;
+
